@@ -1,0 +1,82 @@
+@font-face {
+font-family: 'nn';
+src: url('fonts/nn.ttf');
+}
+
+.font{
+  font-family: 'nn';
+  font-size: 50px
+}
+
+
+
+body{
+  background: url('https://i.pinimg.com/originals/4c/d6/ea/4cd6eaa599851725aa5a195d162fb20d.gif') fixed center no-repeat;
+  background-size: 1920px 1080px
+}
+
+.hello:link ,.hello:visited{
+  display: inline-block;
+  width: 10%;
+  background-color:white;
+  color: black;
+  padding: 14px 24px;
+  font-family: 'nn';
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  border: 2px solid #4CAF50;
+}
+
+
+
+.hello:hover, hello:active{
+  background-color: #4CAF50;
+  color: white;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+color: black;
+text-align: center;
+}
+
+.web{  
+top:910px;
+left:1px;
+width:20%;
+height:40px;
+padding: 14px 24px;
+position: absolute;
+z-index: 1;
+background-color: white;
+color: black;
+transition-duration: 0.4s;
+text-decoration: none;
+text-align: center;
+border: 2px solid #4CAF50;
+font-family: 'nn';
+cursor: pointer;
+       
+}
+
+.web:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
+ 
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  font-size: 50px;
+  cursor: pointer;
+}
