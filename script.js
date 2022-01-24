@@ -1,3 +1,3 @@
 function redirect(){
- document.location.href = 'redirect.html'
+ document.location.href = '/redirect.html'
 }
